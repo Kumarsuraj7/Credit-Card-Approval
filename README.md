@@ -16,3 +16,23 @@ Reference: https://www.listendata.com/2019/09/credit-risk-vintage-analysis.html
 
 Data Distribution post Vintage Analysis
 
+![image](https://user-images.githubusercontent.com/23438020/151836656-06fae8b7-a4ad-4f38-a82e-a192eb52dbd7.png)
+
+Application approval(target) distribution in for important features
+
+![image](https://user-images.githubusercontent.com/23438020/151836796-d1ab88d9-10aa-411d-bcfe-f539a9fa0d17.png)
+
+ROC Curve 
+
+![image](https://user-images.githubusercontent.com/23438020/151837109-b244d10f-9479-4036-81cd-839a14d32002.png)
+
+Confusion Matrics
+
+![image](https://user-images.githubusercontent.com/23438020/151837169-077c5919-83c4-445e-b6ac-38ecd44c7409.png)
+
+
+__Summary__
+
+- Every wrongly classified customer is a finacial loss to the Bank 
+- Recall score of Random forest: 0.45 & CatBoost: 0.44 which slightly different
+- From execution perspective CatBoost is faster, Hence we are selecting it as the final model.
