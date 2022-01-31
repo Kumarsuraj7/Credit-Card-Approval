@@ -12,7 +12,6 @@ The term 'Vintage' refers to the month or quarter in which account was opened (l
 in different periods of time after the loan (or credit card) was granted. Performance can be measured in the form of cumulative charge-off rate, proportion of customers 
 30/60/90 days past due (DPD), utilization ratio, average balance etc.
 
-Reference: https://www.listendata.com/2019/09/credit-risk-vintage-analysis.html
 
 Data Distribution post Vintage Analysis
 
@@ -36,3 +35,8 @@ __Summary__
 - Every wrongly classified customer is a finacial loss to the Bank 
 - Recall score of Random forest: 0.45 & CatBoost: 0.44 which slightly different
 - From execution perspective CatBoost is faster, Hence we are selecting it as the final model.
+
+Reference:
+- https://www.kaggle.com/esmaascioglu/predicting-good-bad-customers-for-credit-cards/data
+- https://sundarstyles89.medium.com/weight-of-evidence-and-information-value-using-python-6f05072e83eb
+- https://www.listendata.com/2019/09/credit-risk-vintage-analysis.html
